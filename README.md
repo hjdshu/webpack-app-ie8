@@ -9,7 +9,7 @@
 #### 提供哪些功能
 1. 支持less, dev热更新
 2. 所有资源, 打包压缩，hash 
-3. 打包后支持ie8，但是仅限ie8能使用的api
+3. 打包后支持ie8，暂时不支持babel等，可自行添加
 4. 支持嵌入php变量，参考html里面的     <%= htmlWebpackPlugin.options.phpCode %> 部分内容，与build文件里的配置项做映射处理
 5. 支持多页面，支持ie7+(因为项目虽然是ie8兼容，实际上ie7也能跑)，如果要用promise等，请根据项目兼容情况酌情添加
 
