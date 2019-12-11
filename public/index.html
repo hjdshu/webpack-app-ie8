@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>index</title>
+</head>
+<body>
+  <div class="hello">
+    <h1>HELLO APP！</h1>
+    <br>
+    
+    <h2>以下文字测试自定义代码功能</h2>
+    <div><%= htmlWebpackPlugin.options.customCode %></div>
+    <br>
+    <h2>以下图片测试在html里如何正确引入图片资源</h2>
+    <img class="previmg" src="<%= require('../src/img/p1.jpg') %>" alt="">
+  </div>
+  <br>
+
+  <a href="./product.html">测试支持多页面：跳转到product.html</a>
+  <br>
+  <br>
+
+  <h2>以下显示的内容测试js正常工作</h2>
+  <!-- built files will be auto injected -->
+</body>
+</html>
